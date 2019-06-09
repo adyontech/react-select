@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
-const tickIcon = require("../images/tick.png");
-const crossIcon = require("../images/cross.png");
+const tickIcon = require("./images/tick.png");
+const crossIcon = require("./images/cross.png");
 const SelectComponent = props => {
   const { data, callParent } = props;
   const [menuOpen, toggleMenu] = useState(false);
